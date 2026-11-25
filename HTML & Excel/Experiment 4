@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Experiment 4 - Responsive Webpage using CSS</title>
+
+  <!-- 4.3 External CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 4.2 Internal CSS, 4.4 Box Model, 4.5 Flexbox, 4.6 Grid & 4.7 Media Queries -->
+  <style>
+    .internal-heading {
+      color: blue;
+      background-color: lightgreen;
+      padding: 8px;
+    }
+
+    /* 4.4 CSS Box Model */
+    .box {
+      width: 150px;
+      padding: 20px;
+      border: 2px solid black;
+      margin: 10px;
+      background-color: lightgray;
+    }
+
+    /* 4.5 Flexbox */
+    .container {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+    .item {
+      background-color: orange;
+      padding: 10px;
+    }
+
+    /* 4.6 CSS Grid */
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+    .grid-item {
+      background-color: pink;
+      padding: 10px;
+      text-align: center;
+    }
+
+    /* 4.7 Responsive Media Query */
+    @media (max-width: 600px) {
+      body {
+        background-color: yellow;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Styled by 4.3 External CSS (style.css) -->
+  <h1>External CSS Example</h1>
+
+  <!-- 4.1 Inline CSS -->
+  <h2 style="color: red; background-color: yellow; padding: 8px;">Inline CSS Example</h2>
+
+  <!-- 4.2 Internal CSS -->
+  <h2 class="internal-heading">Internal CSS Example</h2>
+
+  <!-- 4.4 Box Model -->
+  <h3>CSS Box Model</h3>
+  <div class="box">Box Model</div>
+
+  <!-- 4.5 Flexbox -->
+  <h3>Flexbox Layout</h3>
+  <div class="container">
+    <div class="item">Box 1</div>
+    <div class="item">Box 2</div>
+  </div>
+
+  <!-- 4.6 CSS Grid -->
+  <h3>CSS Grid Layout</h3>
+  <div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+  </div>
+
+  <!-- 4.7 Responsive Design -->
+  <h3>Responsive Media Query</h3>
+  <p>Resize the browser window below 600px to see the background color change from lightyellow to yellow.</p>
+
+</body>
+</html>

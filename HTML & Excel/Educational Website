@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>SIT Nagpur - Educational Portal</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <h1>Symbiosis Institute of Technology (SIT), Nagpur</h1>
+
+    <!-- Navigation Elements -->
+    <nav>
+        <a href="#home">Home</a> | 
+        <a href="#about">About Us</a> | 
+        <a href="#courses">Courses</a> | 
+        <a href="https://sitnagpur.edu.in" target="_blank">Official Website</a>
+    </nav>
+    <hr>
+
+    <!-- Main Content Section -->
+    <h2 id="home">Welcome to SIT Nagpur</h2>
+    <p>
+        SIT Nagpur offers premier engineering programs designed for practical skills and academic excellence.
+    </p>
+
+    <!-- Image Element -->
+    <h3>Campus Gallery</h3>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJiF6Rt6SX0x1LNNjw4MdNMBBkcJ3-kksc2WLiIeb8q-dVFm33sf4EGETw&s=10" 
+         alt="SIT Campus Image" 
+         width="300" 
+         height="200">
+
+    <!-- Hyperlink Section -->
+    <h2 id="about">Important Links</h2>
+    <p>
+        Visit the official institutional portal: 
+        <a href="https://sitnagpur.edu.in" target="_blank">Click here to visit SIT Nagpur</a>
+    </p>
+
+</body>
+</html>

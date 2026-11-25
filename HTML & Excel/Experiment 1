@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Experiment 1 - Basic HTML</title>
+</head>
+<body>
+
+  <!-- Headings -->
+  <h1>Main Heading (Level 1)</h1>
+  <h2>Sub Heading (Level 2)</h2>
+  <h3>Section Heading (Level 3)</h3>
+
+  <!-- Text Formatting -->
+  <p>
+    <mark>Welcome to SIT</mark><br>
+    <strong>SIT</strong> is situated at <b>Wathoda, Nagpur</b>.<br>
+    This college features the <q><u><b>Computer Science Engineering</b></u></q> department.
+  </p>
+
+  <!-- Lists -->
+  <h3>Fruit List (Unordered)</h3>
+  <ul>
+    <li><b>1 kg Grapes</b></li>
+    <li><u>1 kg Apples</u></li>
+    <li><i>1 kg Mangoes</i></li>
+  </ul>
+
+  <h3>Grocery List (Ordered)</h3>
+  <ol>
+    <li><mark>12 Eggs</mark></li>
+    <li><b><i>12 Bananas</i></b></li>
+    <li><b><u>12 Oranges</u></b></li>
+  </ol>
+
+  <!-- Table -->
+  <h3>Student Marks Record</h3>
+  <table style="border: 1px solid black; border-collapse: collapse; width: 50%;">
+    <tr>
+      <th style="border: 1px solid black; padding: 5px;">Sr</th>
+      <th style="border: 1px solid black; padding: 5px;">Name</th>
+      <th style="border: 1px solid black; padding: 5px;">Marks</th>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px;">1</td>
+      <td style="border: 1px solid black; padding: 5px;">ABC</td>
+      <td style="border: 1px solid black; padding: 5px;">75</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px;">2</td>
+      <td style="border: 1px solid black; padding: 5px;">DEF</td>
+      <td style="border: 1px solid black; padding: 5px;">67</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px;">3</td>
+      <td style="border: 1px solid black; padding: 5px;">GHI</td>
+      <td style="border: 1px solid black; padding: 5px;">82</td>
+    </tr>
+  </table>
+
+</body>
+</html>

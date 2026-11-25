@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Registration Form</title>
+</head>
+<body>
+
+  <header>
+    <h1>Student Registration Form</h1>
+  </header>
+
+  <main>
+    <form>
+      <fieldset>
+        <legend>Student Details</legend>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <span>Gender:</span>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <span>Hobbies:</span>
+        <input type="checkbox" id="reading" name="hobbies" value="Reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="sports" name="hobbies" value="Sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="travelling" name="hobbies" value="Travelling">
+        <label for="travelling">Travelling</label><br><br>
+
+        <label for="branch">Branch:</label>
+        <select id="branch" name="branch">
+          <option value="Computer Science and Engineering">Computer Science and Engineering</option>
+          <option value="Information Technology">Information Technology</option>
+          <option value="Electronic Engineering">Electronic Engineering</option>
+        </select><br><br>
+
+        <label for="semester">Semester:</label>
+        <select id="semester" name="semester">
+          <option value="1ST SEM">1ST SEM</option>
+          <option value="2ND SEM">2ND SEM</option>
+          <option value="3RD SEM">3RD SEM</option>
+          <option value="4TH SEM">4TH SEM</option>
+          <option value="5TH SEM">5TH SEM</option>
+          <option value="6TH SEM">6TH SEM</option>
+          <option value="7TH SEM">7TH SEM</option>
+          <option value="8TH SEM">8TH SEM</option>
+        </select><br><br>
+
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="30"></textarea><br><br>
+
+        <input type="submit" value="Register">
+      </fieldset>
+    </form>
+  </main>
+
+</body>
+</html>
