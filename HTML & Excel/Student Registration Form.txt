@@ -1,0 +1,45 @@
+<head>
+<title> Student Registration form </title>
+</head>
+<html>
+<form>
+Name:
+<input type="text" name="name">
+<br><br>
+Email:
+<input type="email" name"email">
+<br><br>
+Gender:
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+<br><br>
+Hobbies:
+<input type="checkbox">Reading
+<input type="checkbox">Sports
+<input type="checkbox">Travelling
+<br><br>
+Branch:
+<select>
+<option>"Computer Science and Engineering"</option>
+<option>"Information Technology"</option>
+<option>"Electronic Engineering"</option>
+</select>
+Semester:
+<select>
+<option>"1ST SEM"</option>
+<option>"2ND SEM"</option>
+<option>"3RD SEM"</option>
+<option>"4TH SEM"</option>
+<option>"5TH SEM"</option>
+<option>"6TH SEM"</option>
+<option>"7TH SEM"</option>
+<option>"8TH SEM"</option>
+</select>
+<br><br>
+Address:<br>
+<textarea rows="4" cols="30"></textarea>
+<br><br><br>
+<input type="submit" value="Register">
+</form>
+</body>
+</html>

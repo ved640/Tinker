@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>My first table</title>
+
+</head>
+
+<body>
+
+<table STYLE="border:1px solid black;">
+
+<tr>
+
+<th> Sr </th>
+
+<th> Name </th>
+
+<th> Marks </th>
+
+</tr>
+
+<td>1</td>
+
+<td>William</td>
+
+<td>75</td>
+
+<tr>
+
+<td>2</td>
+
+<td>Sofia</td>
+
+<td>67</td>
+
+</tr>
+
+<tr>
+
+<td>3</td>
+
+<td>Mark</td>
+
+<td>82</td>
+
+</tr>
+
+<td>4</td>
+
+<td>Tina</td>
+
+<td>80</td>
+
+<tr>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
